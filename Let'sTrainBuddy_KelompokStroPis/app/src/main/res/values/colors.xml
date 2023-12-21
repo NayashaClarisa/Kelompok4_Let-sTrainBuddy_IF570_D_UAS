@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#939393</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_brown">#C2663C</color>
+    <color name="navy_blue">#0047AB</color>
+    <color name="blue">#F0FFFF</color>
+    <color name="grey">#808080</color>
+    <color name="purple">#EABFFF</color>
+    
+    <color name="abu2">#c9d8d1</color>
+    <color name="sky">#375E97</color>
+    <color name="biruabu">#697fa4</color>
+    <color name="birumuda">#9abddd</color>
+    <color name="hijaubiru">#98c2c1</color>
+    <color name="abu">#e6ede3</color>
+
+    <color name="darkgreen">#648284</color>
+    <color name="lightcream">#e9e6e3</color>
+    <color name="darkpink">#b3728f</color>
+    <color name="brown">#b08660</color>
+
+    <color name="pink2">#BC85A3</color>
+    <color name="lilac">#9799BA</color>
+    <color name="darkpurple">#8f5d85</color>
+    <color name="denim">#487ba6</color>
+    <color name="darkdarkgreen">#253440</color>
+    <color name="orange">#be8a26</color>
+
+    <color name="hijau">#89AEB6</color>
+    <color name="cream">#d8cdb6</color>
+    <color name="abuabu">#b7bbba</color>
+</resources>

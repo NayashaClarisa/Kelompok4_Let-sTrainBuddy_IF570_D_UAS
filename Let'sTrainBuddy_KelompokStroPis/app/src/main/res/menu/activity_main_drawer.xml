@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/listFragment"
+            android:icon="@drawable/fav"
+            android:title="Whats Going On?" />
+    </group>
+    <group
+        android:id="@+id/menu_middle"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/workoutFragment"
+            android:icon="@drawable/workout"
+            android:title="Sports List" />
+    </group>
+    <group
+        android:id="@+id/menu_middle2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/planFragment"
+            android:icon="@drawable/plan"
+            android:title="Planner" />
+    </group>
+    <group
+        android:id="@+id/menu_middle3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/sportFragment"
+            android:icon="@drawable/fav"
+            android:title="My Profile" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/favoritesFragment"
+            android:icon="@drawable/favorite_menu"
+            android:title="@string/sport_favorites" />
+    </group>
+</menu>

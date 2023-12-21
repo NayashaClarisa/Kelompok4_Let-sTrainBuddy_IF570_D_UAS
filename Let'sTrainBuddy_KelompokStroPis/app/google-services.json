@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "277239316055",
+    "project_id": "workbuddy-server",
+    "storage_bucket": "workbuddy-server.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277239316055:android:540f409683ef5eb158ad12",
+        "android_client_info": {
+          "package_name": "com.example.uasstropis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDidR5uuM9dgwBc2dU__jR4C3vS2yVlz-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

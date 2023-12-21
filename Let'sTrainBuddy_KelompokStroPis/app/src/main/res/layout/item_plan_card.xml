@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginTop="30dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/plan_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight Recap"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Tombol Delete dengan latar belakang merah -->
+        <Button
+            android:id="@+id/delete_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Delete"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFFFFF" /> <!-- Warna putih -->
+    </RelativeLayout>
+
+</RelativeLayout>

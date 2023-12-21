@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu"
+    tools:context=".DetailFragment"
+    android:padding="20dp"
+    android:paddingTop="56dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start|top"
+            android:padding="16dp"
+            android:src="@drawable/arrow"
+            android:background="@color/abu"/>
+        <TextView
+            android:id="@+id/sport_title"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            tools:text="@string/sport1_title" />
+        <View
+            android:id="@+id/pemisah"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="15dp"
+            android:background="?android:attr/dividerVertical" />
+        <TextView
+            android:id="@+id/sport_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            tools:text="@string/sport1_desc" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/hijaubiru">
+            <TextView
+                android:id="@+id/day1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 1"
+                android:onClick="onDayClick"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/hijaubiru">
+            <TextView
+                android:id="@+id/day2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 2"
+                android:onClick="onDayClick"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/hijau">
+            <TextView
+                android:id="@+id/day3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 3"
+                android:onClick="onDayClick"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/hijau">
+            <TextView
+                android:id="@+id/day4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 4"
+                android:onClick="onDayClick"
+                android:clickable="true"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/darkgreen">
+            <TextView
+                android:id="@+id/day5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 5"
+                android:onClick="onDayClick"
+                android:clickable="true"
+                android:textColor="@color/lightcream"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/darkgreen">
+            <TextView
+                android:id="@+id/day6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 6"
+                android:onClick="onDayClick"
+                android:clickable="true"
+                android:textColor="@color/lightcream"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:radius="8dp"
+            app:cardBackgroundColor="@color/darkdarkgreen">
+            <TextView
+                android:id="@+id/day7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Day 7"
+                android:onClick="onDayClick"
+                android:clickable="true"
+                android:textColor="@color/lightcream"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

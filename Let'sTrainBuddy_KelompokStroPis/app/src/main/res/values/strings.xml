@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">UAS StroPis</string>
+    <string name="app_title">Exercises Application</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_sport">Sport List</string>
+    <string name="sport_favorites">Favorite Sport</string>
+    <string name="sport1_title">Leg Workout</string>
+    <string name="sport1_desc">Build Leg Muscles or Lower Body Muscles </string>
+    <string name="sport2_title">Glute Workout</string>
+    <string name="sport2_desc">Build Gluteal Mucles or Core Muscles</string>
+    <string name="sport3_title">Arm Workout</string>
+    <string name="sport3_desc">Build Arm Muscles or Upper Body Muscles</string>
+    <string name="sport_list">Sport List</string>
+    <string name="sports_favorites">My Favorite Sport</string>
+    <string name="sports_list">Sports List</string>
+    <string name="bottom_menu_sport">Sport</string>
+    <string name="bottom_menu_profile">MY PROFILE</string>
+    <string name="profile_title">MY PROFILE</string>
+    <string name="profile_desc">HI, WE ARE STROPIS!</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string name="update_button_text">Change Workout Preference</string>
+    <string name="sign_in_to_your_account">Sign In To Your Account</string>
+    <string name="bg_image">bg_image</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="register">Register</string>
+    <string name="not_have_account">Not Have Account?</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="password">Password</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">enter your name</string>
+    <string name="have_account">Have Account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

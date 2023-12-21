@@ -1,0 +1,57 @@
+<!-- dialog_workout_reason.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your workout goal:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioBigger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bigger" />
+
+        <RadioButton
+            android:id="@+id/radioLeaner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leaner" />
+
+        <RadioButton
+            android:id="@+id/radioStronger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stronger" />
+
+        <RadioButton
+            android:id="@+id/radioHealthier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healthier" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground" />
+
+</LinearLayout>

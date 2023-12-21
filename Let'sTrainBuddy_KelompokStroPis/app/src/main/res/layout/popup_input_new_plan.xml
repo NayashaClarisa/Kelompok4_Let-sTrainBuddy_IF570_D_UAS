@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/abu">
+
+<!--    title text that says input new plan-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Input New Plan"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<!--    text box for user to input new plan-->
+    <EditText
+        android:id="@+id/input_new_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+<!--    button to confirm input-->
+    <Button
+        android:id="@+id/confirm_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_new_plan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Confirm" />
+</RelativeLayout>
