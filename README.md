@@ -8,6 +8,6 @@ IF570 Mobile Application Programming - D
 
 Universitas Multimedia Nusantara
 
-Link GitHub: https://github.com/NayashaClarisa/KelompokStroPis_Let-sTrainBuddy_IF570_D_UAS.git
+Link GitHub: https://github.com/NayashaClarisa/KelompokStroPis_Let-sTrainBuddy_IF570_D_UAS.git pada branch "master"
 
 Link Aplikasi pada Google Play Store:
