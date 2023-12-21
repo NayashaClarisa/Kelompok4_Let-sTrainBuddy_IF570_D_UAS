@@ -12,3 +12,5 @@ Link GitHub: https://github.com/NayashaClarisa/KelompokStroPis_Let-sTrainBuddy_I
 
 Link Aplikasi pada Google Play Store:
 https://play.google.com/store/apps/details?id=com.letstrainbuddy.uasstropis
+
+Nama Aplikasi pada Google Play Store: Let's Train Buddy
