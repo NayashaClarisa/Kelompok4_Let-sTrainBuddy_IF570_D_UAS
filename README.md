@@ -12,4 +12,4 @@ Universitas Multimedia Nusantara
 
 Link GitHub: https://github.com/NayashaClarisa/KelompokStroPis_Let-sTrainBuddy_IF570_D_UAS.git
 
-Link Aplikasi pada Google Play Store:
+Link Aplikasi pada Google Play Store: https://play.google.com/store/apps/details?id=com.letstrainbuddy.uasstropis
