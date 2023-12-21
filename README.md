@@ -7,7 +7,9 @@ Kelompok StroPis:
 4. 00000056883 - Nayasha Clarisa Dwisutrisna
 
 IF570 Mobile Application Programming - D
+
 Universitas Multimedia Nusantara
 
-Link GitHub:
+Link GitHub: https://github.com/NayashaClarisa/KelompokStroPis_Let-sTrainBuddy_IF570_D_UAS.git
+
 Link Aplikasi pada Google Play Store:
